@@ -130,7 +130,7 @@
   </div>
   <!--/ Form Search End /-->
 
-  <!--/ Nav Star /-->
+    <!--/ Nav Star /-->
   <nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
     <div class="container">
       <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
@@ -149,13 +149,34 @@
           <li class="nav-item">
             <a class="nav-link active" href="index.html">Inicio</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">Nosotros</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="about.html" id="navbarDropdown"role="button" data-toggle="dropdown"
+			aria-haspopup="true" aria-expanded="false">
+            Somos Darca
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="about.html">Nosotros</a>
+              <a class="dropdown-item" href="blog-single.html">Quienes somos</a>
+              <a class="dropdown-item" href="agents-grid.html">Misión</a>
+              <a class="dropdown-item" href="agent-single.html">Visión</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="property-grid.html">Servicios</a>
+            <a class="nav-link" href="property-grid.html">Propiedades</a>
           </li>
-          
+          <li class="nav-item">
+            <a class="nav-link" href="blog-grid.html">Blog</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Servicios
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="property-single.html">Venta</a>
+              <a class="dropdown-item" href="blog-single.html">Renta</a>
+              <a class="dropdown-item" href="agents-grid.html">Administración</a>
+              <a class="dropdown-item" href="agent-single.html">Asesoria legal</a>
+            </div>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contact.html">Contacto</a>
@@ -259,7 +280,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-3">
           <div class="card-box-c foo">
             <div class="card-header-c d-flex">
               <div class="card-box-ico">
@@ -271,7 +292,7 @@
             </div>
             <div class="card-body-c">
               <p class="content-c">
-                S
+                Venta de terrenos
               </p>
             </div>
             <div class="card-footer-c">
@@ -281,7 +302,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-3">
           <div class="card-box-c foo">
             <div class="card-header-c d-flex">
               <div class="card-box-ico">
@@ -293,7 +314,7 @@
             </div>
             <div class="card-body-c">
               <p class="content-c">
-                N
+                Renta de terrenos
               </p>
             </div>
             <div class="card-footer-c">
@@ -303,19 +324,19 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-3">
           <div class="card-box-c foo">
             <div class="card-header-c d-flex">
               <div class="card-box-ico">
              
               </div>
               <div class="card-title-c align-self-center">
-                <h2 class="title-c">Administración y asesoria</h2>
+                <h2 class="title-c">Administración</h2>
               </div>
             </div>
             <div class="card-body-c">
               <p class="content-c">
-                S
+                Administración de terrenos
               </p>
             </div>
             <div class="card-footer-c">
@@ -324,6 +345,29 @@
               </a>
             </div>
           </div>
+        </div>
+		 <div class="col-md-3">
+          <div class="card-box-c foo">
+            <div class="card-header-c d-flex">
+              <div class="card-box-ico">
+             
+              </div>
+              <div class="card-title-c align-self-center">
+                <h2 class="title-c">Asesoria</h2>
+              </div>
+            </div>
+            <div class="card-body-c">
+              <p class="content-c">
+                Asesoria en los terrenos
+              </p>
+            </div>
+            <div class="card-footer-c">
+              
+               
+              </a>
+            </div>
+          </div>
+		  
         </div>
       </div>
     </div>
@@ -337,10 +381,10 @@
         <div class="col-md-12">
           <div class="title-wrap d-flex justify-content-between">
             <div class="title-box">
-              <h2 class="title-a">Latest Properties</h2>
+              <h2 class="title-a">Propiedades</h2>
             </div>
             <div class="title-link">
-              <a href="property-grid.html">All Property
+              <a href="property-grid.html">Mas propiedades
                 <span class="ion-ios-arrow-forward"></span>
               </a>
             </div>
@@ -542,7 +586,7 @@
   <!--/ Property End /-->
 
   <!--/ Agents Star /-->
-  <section class="section-agents section-t8">
+  <section class="section-agents section-t8" style="display:none;"
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -742,7 +786,7 @@
   <!--/ Agents End /-->
 
   <!--/ News Star /-->
-  <section class="section-news section-t8">
+     <section class="section-news section-t8" style="display:none;"
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -857,7 +901,7 @@
   <!--/ News End /-->
 
   <!--/ Testimonials Star /-->
-  <section class="section-testimonials section-t8 nav-arrow-a">
+   <section class="section-testimonials section-t8" style="display:none;"
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -935,12 +979,11 @@
         <div class="col-sm-12 col-md-4">
           <div class="widget-a">
             <div class="w-header-a">
-              <h3 class="w-title-a text-brand">EstateAgency</h3>
+              <h3 class="w-title-a text-brand">DarcaInmobiliaria</h3>
             </div>
             <div class="w-body-a">
               <p class="w-text-a color-text-a">
-                Enim minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip exea commodo consequat duis
-                sed aute irure.
+               <p small><small>Darca es una inmobiliaria Ética y profesional conformada por un equipo experto y calificado en las areas de derecho,Urbanismo,Construcción,Fiscal,Financiero y Notarial.</small></p>
               </p>
             </div>
             <div class="w-footer-a">
@@ -1023,19 +1066,19 @@
           <nav class="nav-footer">
             <ul class="list-inline">
               <li class="list-inline-item">
-                <a href="#">Home</a>
+                <a href="#">Inicio</a>
               </li>
               <li class="list-inline-item">
-                <a href="#">About</a>
+                <a href="#">Nosotros</a>
               </li>
               <li class="list-inline-item">
-                <a href="#">Property</a>
+                <a href="#">Propiedades</a>
               </li>
               <li class="list-inline-item">
-                <a href="#">Blog</a>
+                <a href="#">Servicio</a>
               </li>
               <li class="list-inline-item">
-                <a href="#">Contact</a>
+                <a href="#">Contacto</a>
               </li>
             </ul>
           </nav>
@@ -1046,24 +1089,13 @@
                   <i class="fa fa-facebook" aria-hidden="true"></i>
                 </a>
               </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-twitter" aria-hidden="true"></i>
-                </a>
-              </li>
+ 
               <li class="list-inline-item">
                 <a href="#">
                   <i class="fa fa-instagram" aria-hidden="true"></i>
                 </a>
               </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-pinterest-p" aria-hidden="true"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-dribbble" aria-hidden="true"></i>
+   
                 </a>
               </li>
             </ul>
